@@ -240,7 +240,7 @@ header .right-side-menu .sub-menu a li:hover{
     height: 70rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
     padding: 0 12.5rem;
 }
  .common-section .left-side{
@@ -339,7 +339,7 @@ header .right-side-menu .sub-menu a li:hover{
     height: 50rem;
     background-color: var(--background-color);
     padding: 3rem 12.5rem;
-    margin-bottom: 8rem;
+    margin-bottom: -4rem;
 }
 
 .section-third h2{
@@ -423,4 +423,21 @@ header .right-side-menu .sub-menu a li:hover{
 .section-third .section-third-task .task-2:hover > img,
 .section-third .section-third-task .task-3:hover > img{
     transform: rotate(360deg);
+}
+/************************************************************************** our 4th section right side css style  ***************************************************************************/
+
+#section-four .right-side h2{
+    width: 43rem;
+}
+#section-four .right-side{
+    height: 70rem;
+}
+
+#section-four .right-side p{
+    width: 43rem;
+}
+#section-four .left-side img{
+    width: inherit;
+    height: inherit;
+    margin: 0;
 }

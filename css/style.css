@@ -424,8 +424,10 @@ header .right-side-menu .sub-menu a li:hover{
 .section-third .section-third-task .task-3:hover > img{
     transform: rotate(360deg);
 }
-/************************************************************************** our 4th section right side css style  ***************************************************************************/
-
+/************************************************************************** our 4th section css style  ***************************************************************************/
+#section-four{
+    margin-bottom: 2rem;
+}
 #section-four .right-side h2{
     width: 43rem;
 }
@@ -441,3 +443,45 @@ header .right-side-menu .sub-menu a li:hover{
     height: inherit;
     margin: 0;
 }
+/****************************************************** OUR 5TH SECTION CSS STYLE ******************************************************/
+#section-five .left-side img{
+    margin: 0;
+    width: 45rem;
+    height: 65rem;
+    margin-top: 3.5rem;
+}
+
+#section-five .right-side{
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+#section-five .right-side h2{
+    font-size: 3.5rem;
+    width: 40rem;
+    margin-left: 12.5rem;
+    line-height: 5rem;
+}
+
+#section-five .right-side .fitness-goals{
+    margin-left: 12.5rem;
+}
+
+#section-five .right-side .rule1, 
+#section-five .right-side .rule2, 
+#section-five .right-side .rule3{
+    width: 40rem;
+} 
+
+#section-five .right-side .rule1 h3, 
+#section-five .right-side .rule2 h3, 
+#section-five .right-side .rule3 h3{
+    line-height: 4rem;
+    font-size: 1.8rem;
+}
+
+.fitness-goals i{
+    color: #f05d2d;
+}
+

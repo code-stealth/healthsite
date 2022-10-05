@@ -485,3 +485,40 @@ header .right-side-menu .sub-menu a li:hover{
     color: #f05d2d;
 }
 
+/* OUR 6TH SECTION FOOTER CSS STYLE */
+
+footer{
+    width: 100%;
+    background-color: var(--background-color);
+    height: auto;
+    padding: 5rem 12.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer img{
+    width: 13rem;
+    height: 5.5rem;
+}
+
+footer .logo-div p{
+    font-size: 1.2rem;
+}
+
+footer .footer-menu{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer .footer-menu h4{
+    line-height: 3rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+footer .footer-menu li{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-transform: capitalize;
+}

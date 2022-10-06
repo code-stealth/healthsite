@@ -674,6 +674,7 @@ footer .footer-menu li {
         width: 35rem;
         height: 35rem;
         margin: 0 auto;
+        margin-top: 1rem;
     }
 
     .main-hero-section .hero-left-side h1 {
@@ -755,6 +756,7 @@ footer .footer-menu li {
         width: inherit;
         height: 5rem;
         font-size: 1.5rem;
+        margin-bottom: 2rem;
     }
     .section-third .section-third-task{
         display: grid;

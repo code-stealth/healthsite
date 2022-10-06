@@ -751,6 +751,7 @@ footer .footer-menu li {
     .section-third h2{
         width: inherit;
         font-size: 4rem;
+        margin-top: 5rem;
     }
     .section-third p{
         width: inherit;
@@ -804,7 +805,7 @@ footer .footer-menu li {
         padding: 0 0.6rem;
     }
 
-    #section-four .left-side img{
-        height: 50rem;
+    #section-four .left-side{
+        display: none;
     }
 }

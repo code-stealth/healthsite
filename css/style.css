@@ -774,4 +774,24 @@ footer .footer-menu li {
     .section-third .section-third-task .task-3:hover{
         background-color: #fff;
     }
+
+    /* 4th section css style */
+
+    #section-four{
+        width: 100%;
+        position: absolute;
+        top: 332rem;
+    }
+
+    #section-four .right-side{
+        width: inherit;
+    }
+    #section-four .right-side h2,
+    #section-four .right-side p{
+        width: inherit;
+    }
+    #section-four .right-side h2{
+        margin-top: 7.5rem;
+    }
+
 }

@@ -76,11 +76,11 @@ button {
 
 /************************************************************* OUR MENU STYLE ***********************************************************/
 
-header{
+header {
     padding: 0 12.5rem;
 }
 
-header nav{
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,7 +88,7 @@ header nav{
     height: 12rem;
 }
 
-header nav .left-side-menu{
+header nav .left-side-menu {
     display: flex;
     /* background-color: #e2efff; */
     justify-content: space-between;
@@ -96,38 +96,38 @@ header nav .left-side-menu{
     width: 50%;
 }
 
-header nav .left-side-menu a img{
+header nav .left-side-menu a img {
     width: 16rem;
     height: 7rem;
 }
 
-header nav .left-side-menu .sub-menu{
+header nav .left-side-menu .sub-menu {
     display: flex;
     height: inherit;
 }
 
-header nav .left-side-menu .sub-menu a li{
+header nav .left-side-menu .sub-menu a li {
     font-size: 1.5rem;
     line-height: 3.6rem;
     text-transform: capitalize;
     transition: all 0.2s;
 }
 
-header nav .left-side-menu .sub-menu a{
+header nav .left-side-menu .sub-menu a {
     margin-right: 4rem;
 }
 
-header nav .left-side-menu .sub-menu a li:hover{
+header nav .left-side-menu .sub-menu a li:hover {
     color: var(--button-background)
 }
 
-header .right-side-menu{
+header .right-side-menu {
     width: 50%;
     display: flex;
     /* justify-content: end; */
 }
 
-header .right-side-menu .sub-menu{
+header .right-side-menu .sub-menu {
     width: 100%;
     height: inherit;
     display: flex;
@@ -135,10 +135,10 @@ header .right-side-menu .sub-menu{
     justify-content: end;
 }
 
-header .right-side-menu .sub-menu a{
+header .right-side-menu .sub-menu a {
     margin-right: 6rem;
     padding: 0.7rem 2rem;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     font-size: 1.5rem;
     cursor: pointer;
     border-radius: 1rem;
@@ -147,7 +147,7 @@ header .right-side-menu .sub-menu a{
     transition: all 0.2s;
 }
 
-header .right-side-menu .sub-menu button{
+header .right-side-menu .sub-menu button {
     padding: 0.2rem 1.5rem;
     background-color: var(--button-background);
     font-size: 1.5rem;
@@ -158,17 +158,17 @@ header .right-side-menu .sub-menu button{
     transition: all 2s;
 }
 
-header .right-side-menu .sub-menu button:hover{
+header .right-side-menu .sub-menu button:hover {
     background-color: #327ddf;
 }
 
-header .right-side-menu .sub-menu a li:hover{
+header .right-side-menu .sub-menu a li:hover {
     color: var(--button-background);
 }
 
 /************************************************************* OUR HERO CSS STYLE ***********************************************************/
 
-.main-hero-section{
+.main-hero-section {
     padding: 0 12.5rem;
     width: 100%;
     height: 100%;
@@ -178,7 +178,7 @@ header .right-side-menu .sub-menu a li:hover{
     margin-bottom: 25rem;
 }
 
-.main-hero-section h1{
+.main-hero-section h1 {
     width: 50rem;
     font-size: 4.5rem;
     line-height: 7rem;
@@ -186,27 +186,27 @@ header .right-side-menu .sub-menu a li:hover{
     text-transform: capitalize;
 }
 
-.main-hero-section p{
+.main-hero-section p {
     margin-bottom: 3rem;
     width: 48rem;
     font-size: 1.8rem;
 }
 
-.main-hero-section a img{
+.main-hero-section a img {
     width: 13.5rem;
     height: 4rem;
 }
 
-.main-hero-section .button-group .appstore{
+.main-hero-section .button-group .appstore {
     height: 4.4rem;
     margin-bottom: -0.4rem;
 }
 
-.main-hero-section .button-group a:first-child{
+.main-hero-section .button-group a:first-child {
     margin-right: 2.5rem;
 }
 
-.main-hero-section .hero-right-side{
+.main-hero-section .hero-right-side {
     width: 50%;
     height: 100vh;
     background-color: var(--background-color);
@@ -218,16 +218,17 @@ header .right-side-menu .sub-menu a li:hover{
     justify-content: center;
     align-items: center;
 }
-.main-hero-section .hero-left-side{
+
+.main-hero-section .hero-left-side {
     width: 50%;
     height: 60vh;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     align-items: flex-start;
 }
 
-.main-hero-section .hero-right-side img{
+.main-hero-section .hero-right-side img {
     width: 80rem;
     height: 65rem;
     margin-right: 35rem;
@@ -235,7 +236,7 @@ header .right-side-menu .sub-menu a li:hover{
 
 /***************************************************** our 2nd section left side css style ******************************************************/
 
-.common-section{
+.common-section {
     width: 100%;
     height: 70rem;
     display: grid;
@@ -243,11 +244,13 @@ header .right-side-menu .sub-menu a li:hover{
     margin-bottom: 2rem;
     padding: 0 12.5rem;
 }
- .common-section .left-side{
+
+.common-section .left-side {
     height: inherit;
     width: inherit;
-} 
-.common-section .left-side .figure3{
+}
+
+.common-section .left-side .figure3 {
     width: 31.5rem;
     height: 65rem;
     padding-top: 2.5rem;
@@ -255,7 +258,8 @@ header .right-side-menu .sub-menu a li:hover{
     border-radius: 2rem 2rem 0rem 2rem;
     margin-left: 12rem;
 }
-.common-section .left-side .figure1{
+
+.common-section .left-side .figure1 {
     width: 25rem;
     height: 60rem;
     background-color: var(--background-color);
@@ -264,17 +268,17 @@ header .right-side-menu .sub-menu a li:hover{
     margin-left: -12rem;
 }
 
-.common-section .left-side .figure2{ 
+.common-section .left-side .figure2 {
     width: 25rem;
     height: 55rem;
     background-color: #f3f9ff;
     border-radius: 2rem 2rem 0rem 2rem;
     margin-left: 6rem;
     margin-top: 2.5rem;
-    
+
 }
 
-.common-section .left-side img{
+.common-section .left-side img {
     width: 35rem;
     height: 50rem;
     border-radius: 2rem;
@@ -284,7 +288,7 @@ header .right-side-menu .sub-menu a li:hover{
 
 /************************************************************************** our 2nd section right side css style  ***************************************************************************/
 
-.common-section .right-side{
+.common-section .right-side {
     width: inherit;
     height: 68vh;
     display: flex;
@@ -294,7 +298,7 @@ header .right-side-menu .sub-menu a li:hover{
     padding-left: 1rem;
 }
 
-.common-section .right-side h2{
+.common-section .right-side h2 {
     width: 45rem;
     font-size: 4rem;
     line-height: 7rem;
@@ -303,38 +307,39 @@ header .right-side-menu .sub-menu a li:hover{
     text-transform: capitalize;
 }
 
-.common-section .right-side p{
+.common-section .right-side p {
     margin-bottom: 3rem;
     width: 45rem;
     font-size: 1.5rem;
 }
 
-.common-section .right-side .common-button{
+.common-section .right-side .common-button {
     padding: 0.7rem 2.5rem;
     background-color: var(--primary-button-background);
     margin-right: 5rem;
     color: #fff;
     transition: all 0.2s;
 }
-.common-section .right-side .common-button-normal{
+
+.common-section .right-side .common-button-normal {
     padding: 0.7rem 2.5rem;
     color: var(--main-color);
     background-color: transparent;
     transition: all 0.2s;
 }
 
-.common-section .right-side .common-button:hover{
+.common-section .right-side .common-button:hover {
     background-color: #f05d2d;
 }
 
-.common-section .right-side .common-button-normal:hover{
+.common-section .right-side .common-button-normal:hover {
     background-color: var(--primary-button-background);
     color: #fff;
 }
 
 /************************************************************************** OUR 3RD SECTION  ***************************************************************************/
 
-.section-third{
+.section-third {
     width: 100%;
     height: 50rem;
     background-color: var(--background-color);
@@ -342,7 +347,7 @@ header .right-side-menu .sub-menu a li:hover{
     margin-bottom: -4rem;
 }
 
-.section-third h2{
+.section-third h2 {
     font-size: 4rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -350,7 +355,7 @@ header .right-side-menu .sub-menu a li:hover{
     text-transform: capitalize;
 }
 
-.section-third p{
+.section-third p {
     width: 60rem;
     height: 5rem;
     margin-bottom: 1rem;
@@ -359,7 +364,7 @@ header .right-side-menu .sub-menu a li:hover{
     text-align: center;
 }
 
-.section-third .section-third-task{
+.section-third .section-third-task {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 18.4rem;
@@ -367,7 +372,7 @@ header .right-side-menu .sub-menu a li:hover{
 
 .section-third .section-third-task .task-1,
 .section-third .section-third-task .task-2,
-.section-third .section-third-task .task-3{
+.section-third .section-third-task .task-3 {
     width: 30rem;
     height: 26rem;
     padding-top: 2rem;
@@ -378,116 +383,123 @@ header .right-side-menu .sub-menu a li:hover{
 }
 
 .section-third .section-third-task .task-1 h3,
-.section-third .section-third-task .task-2 h3 ,
-.section-third .section-third-task .task-3 h3{
+.section-third .section-third-task .task-2 h3,
+.section-third .section-third-task .task-3 h3 {
     font-size: 2rem;
     text-transform: capitalize;
 }
+
 .section-third .section-third-task .task-1 h3,
-.section-third .section-third-task .task-3 h3{
+.section-third .section-third-task .task-3 h3 {
     margin-top: 0.8rem;
 }
 
 .section-third .section-third-task .task-1 img,
 .section-third .section-third-task .task-2 img,
-.section-third .section-third-task .task-3 img{
+.section-third .section-third-task .task-3 img {
     width: 10rem;
     height: 11rem;
     transition: all 0.3s;
 }
-.section-third .section-third-task .task-2 img{
+
+.section-third .section-third-task .task-2 img {
     height: 11.8rem;
 }
 
 .section-third .section-third-task .task-1 p,
 .section-third .section-third-task .task-2 p,
-.section-third .section-third-task .task-3 p{
+.section-third .section-third-task .task-3 p {
     width: 25rem;
     /* padding-top: 2rem; */
     height: 6rem;
     font-size: 1.5rem;
 }
 
-.section-third .section-third-task .task-3{
+.section-third .section-third-task .task-3 {
     background: #fff;
     box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
 }
 
 .section-third .section-third-task .task-1:hover,
-.section-third .section-third-task .task-2:hover{
+.section-third .section-third-task .task-2:hover {
     background: #fff;
     box-shadow: 0rem 0.4rem 2rem rgba(35, 52, 53, 0.25);
 }
 
-.section-third .section-third-task .task-1:hover > img,
-.section-third .section-third-task .task-2:hover > img,
-.section-third .section-third-task .task-3:hover > img{
+.section-third .section-third-task .task-1:hover>img,
+.section-third .section-third-task .task-2:hover>img,
+.section-third .section-third-task .task-3:hover>img {
     transform: rotate(360deg);
 }
+
 /************************************************************************** our 4th section css style  ***************************************************************************/
-#section-four{
+#section-four {
     margin-bottom: 2rem;
 }
-#section-four .right-side h2{
+
+#section-four .right-side h2 {
     width: 43rem;
 }
-#section-four .right-side{
+
+#section-four .right-side {
     height: 70rem;
 }
 
-#section-four .right-side p{
+#section-four .right-side p {
     width: 43rem;
 }
-#section-four .left-side img{
+
+#section-four .left-side img {
     width: inherit;
     height: inherit;
     margin: 0;
 }
+
 /****************************************************** OUR 5TH SECTION CSS STYLE ******************************************************/
-#section-five .left-side img{
+#section-five .left-side img {
     margin: 0;
     width: 45rem;
     height: 65rem;
     margin-top: 3.5rem;
 }
 
-#section-five .right-side{
+#section-five .right-side {
     justify-content: center;
     align-items: center;
     height: inherit;
 }
 
-#section-five .right-side h2{
+#section-five .right-side h2 {
     font-size: 3.5rem;
     width: 40rem;
     margin-left: 12.5rem;
     line-height: 5rem;
 }
 
-#section-five .right-side .fitness-goals{
+#section-five .right-side .fitness-goals {
     margin-left: 12.5rem;
 }
 
-#section-five .right-side .rule1, 
-#section-five .right-side .rule2, 
-#section-five .right-side .rule3{
+#section-five .right-side .rule1,
+#section-five .right-side .rule2,
+#section-five .right-side .rule3 {
     width: 40rem;
-} 
+}
 
-#section-five .right-side .rule1 h3, 
-#section-five .right-side .rule2 h3, 
-#section-five .right-side .rule3 h3{
+#section-five .right-side .rule1 h3,
+#section-five .right-side .rule2 h3,
+#section-five .right-side .rule3 h3 {
     line-height: 4rem;
     font-size: 1.8rem;
 }
 
-.fitness-goals i{
+.fitness-goals i {
     color: #f05d2d;
 }
 
 /* OUR 6TH SECTION FOOTER CSS STYLE */
 
-footer{
+footer {
     width: 100%;
     background-color: var(--background-color);
     height: auto;
@@ -496,28 +508,28 @@ footer{
     grid-template-columns: 1fr 1fr;
 }
 
-footer img{
+footer img {
     width: 13rem;
     height: 5.5rem;
 }
 
-footer .logo-div p{
+footer .logo-div p {
     font-size: 1.2rem;
 }
 
-footer .footer-menu{
+footer .footer-menu {
     margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-footer .footer-menu h4{
+footer .footer-menu h4 {
     line-height: 3rem;
     font-size: 1.5rem;
     text-transform: capitalize;
 }
 
-footer .footer-menu li{
+footer .footer-menu li {
     font-size: 1.2rem;
     line-height: 2rem;
     text-transform: capitalize;
@@ -525,7 +537,7 @@ footer .footer-menu li{
 
 /* our 6th section social media menu  */
 
-.icon-bar{
+.icon-bar {
     position: fixed;
     top: 40%;
     transform: translateY(-50%);
@@ -533,7 +545,7 @@ footer .footer-menu li{
 }
 
 
-.icon-bar a{
+.icon-bar a {
     width: 18rem;
     background-color: #3b5999;
     color: #fff;
@@ -546,29 +558,171 @@ footer .footer-menu li{
     transform: translateX(-14.5rem);
 }
 
-.icon-bar a:hover{
+.icon-bar a:hover {
     transform: translateX(0);
 }
 
-.icon-bar a .fa-brands{
+.icon-bar a .fa-brands {
     padding-left: 1rem;
     font-size: 2.5rem;
     animation: letszoom 3s linear alternate-reverse infinite;
 }
 
 @keyframes letszoom {
-    from{
+    from {
         transform: scale(0.5);
     }
-    to{
+
+    to {
         transform: scale(1);
     }
 }
 
-.icon-bar .instagram{
+.icon-bar .instagram {
     background-color: rgb(196, 29, 73);
 }
 
-.icon-bar .github{
+.icon-bar .github {
     background-color: rgb(40, 39, 39);
+}
+
+/* responsiveness */
+
+@media (max-width: 770px) {
+
+    header,
+    .main-hero-section,
+    .common-section {
+        padding: 0 5rem;
+    }
+
+    header nav {
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav .left-side-menu {
+        width: inherit;
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    header nav .left-side-menu .sub-menu {
+        text-align: center;
+        width: inherit;
+    }
+
+    header nav .left-side-menu .sub-menu a li {
+        width: inherit;
+    }
+
+    header nav .left-side-menu .sub-menu a {
+        margin: 0 auto;
+        margin-right: 3rem;
+    }
+
+    header nav .left-side-menu .sub-menu #about-us {
+        width: 7rem;
+    }
+
+    header nav .right-side-menu {
+        width: inherit;
+    }
+
+    header nav .right-side-menu .sub-menu a {
+        border: 1px solid gray;
+        border-radius: 20px;
+        margin-right: 1rem;
+    }
+
+    header nav .left-side-menu .logo {
+        width: inherit;
+    }
+
+    /* FOR hero section */
+
+    .main-hero-section {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 17rem;
+    }
+
+    .main-hero-section .hero-left-side {
+        order: 2;
+        width: 100%;
+    }
+
+    .main-hero-section .hero-right-side {
+        background-color: transparent;
+        order: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .main-hero-section .hero-right-side img {
+        width: 35rem;
+        height: 35rem;
+        margin: 0 auto;
+    }
+
+    .main-hero-section .hero-left-side h1 {
+        width: 31.5rem;
+        font-size: 4rem;
+        line-height: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .main-hero-section .hero-left-side p {
+        width: 31.5rem;
+        font-size: 1.5rem;
+    }
+
+    /* 2nd section  */
+
+    .common-section{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 45rem;
+        margin-left: 0;
+    }
+    .common-section .left-side .figure1{
+        background: transparent;
+    }
+    .common-section .left-side .figure3{
+        margin-left: 2rem;
+    }
+    .common-section{
+        margin-left: 2rem;
+    }
+    .common-section .left-side .figure2{
+        background: var(--background-color);
+    }
+    .common-section .right-side{
+        padding: 0;
+    }
+    .common-section .right-side h2{
+        margin-top: 10rem;
+        width: 31.5rem;
+        font-size: 4rem;
+        line-height: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .common-section .right-side p{
+        width: 31.5rem;
+        font-size: 1.5rem;
+    }
+
+    .common-section .button-group{
+        display: flex;
+    }
 }

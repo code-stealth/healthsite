@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
 
 html {
@@ -589,6 +590,9 @@ footer .footer-menu li {
 /* responsiveness */
 
 @media (max-width: 770px) {
+    body{
+        width: inherit;
+    }
 
     header,
     .main-hero-section,
@@ -687,7 +691,7 @@ footer .footer-menu li {
     /* 2nd section  */
 
     .common-section{
-        width: 100%;
+        width: inherit;
         height: 80vh;
         display: flex;
         flex-direction: column;
@@ -705,6 +709,9 @@ footer .footer-menu li {
     }
     .common-section .left-side .figure2{
         background: var(--background-color);
+    }
+    .common-section .left-side img{
+        width: 31.5rem;
     }
     .common-section .right-side{
         padding: 0;
@@ -724,5 +731,45 @@ footer .footer-menu li {
 
     .common-section .button-group{
         display: flex;
+    }
+
+    /* 3rd section responsiveness */
+
+    .section-third{
+        background-color: #fff;
+        width: 100vw;
+        height: 140vh;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 45rem;
+        margin-left: 0;
+        align-items: flex-start;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .section-third h2{
+        width: inherit;
+        font-size: 4rem;
+    }
+    .section-third p{
+        width: inherit;
+        height: 5rem;
+        font-size: 1.5rem;
+    }
+    .section-third .section-third-task{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10rem;
+    }
+    .section-third .section-third-task .task-1,
+    .section-third .section-third-task .task-2,
+    .section-third .section-third-task .task-3{
+        margin: 0 auto;
+        background-color: var(--background-color);
+    }
+    .section-third .section-third-task .task-3:hover{
+        background-color: #fff;
     }
 }

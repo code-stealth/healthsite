@@ -784,6 +784,8 @@ footer .footer-menu li {
         top: 325rem;
         height: 85rem;
         margin-bottom: 10rem;
+        margin-top: 5rem;
+        height: 117rem;
     }
 
     #section-four .right-side{
@@ -804,8 +806,13 @@ footer .footer-menu li {
         font-size: 1.3rem;
         padding: 0 0.6rem;
     }
-
+    #section-four .left-side img{
+        width: 0;
+        height: 0;
+    }
     #section-four .left-side{
-        display: none;
+        background-image: url(/images/section4img2.png);
+        width: 31rem;
+        height: 121rem;
     }
 }
